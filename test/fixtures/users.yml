@@ -6,3 +6,10 @@ ryan:
   email: "ryan@goattrips.org"
   profile_name: "ryanmccrary"
   encrypted_password: "password"
+
+chrissy:
+  first_name: "Chrissy"
+  last_name: "McCrary"
+  email: "chrissy@goattrips.org"
+  profile_name: "chrissymccrary"
+
