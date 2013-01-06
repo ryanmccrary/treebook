@@ -14,6 +14,7 @@ class StatusTest < ActiveSupport::TestCase
   	assert !status.errors[:content].empty?
   end
 
+
   test "that a status has a user id" do
   	status = Status.new
   	status.content = "Hello"
