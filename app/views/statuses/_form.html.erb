@@ -12,9 +12,10 @@
   <% end %>
 
 
+
   <div class="field">
     <%= f.input :content %>
-    <%= f.input :user_id, collection: User.all, label_method: :full_name %>
+   <!-- <%= f.input :user_id, collection: User.all, label_method: :full_name %> -->
   </div>
   <div class="form-actions">
     <%= f.button :submit %>
